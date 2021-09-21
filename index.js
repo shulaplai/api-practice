@@ -3,7 +3,7 @@ const request = require ('request-promise')
 
 const app = express()
 const PORT = process.env.PORT || 5000;
-//const apiKey = 'f27ffe41c56de4e69f2ab53dedc607eb';
+const apiKey = 'f27ffe41c56de4e69f2ab53dedc607eb';
 app.use(express.json());
 
 const returnScraperApiUrl = (apiKey) =>
